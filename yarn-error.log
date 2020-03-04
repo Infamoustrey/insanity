@@ -1,0 +1,36 @@
+Arguments: 
+  /home/trey/.fnm/node-versions/v13.2.0/installation/bin/node /usr/share/yarn/bin/yarn.js init
+
+PATH: 
+  /home/trey/.serverless/bin:/tmp/fnm-shell-5219807/bin:/home/trey/.fnm:/home/trey/anaconda3/bin:/home/trey/.nvm/versions/node/v12.4.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/trey/.config/composer/vendor/bin:/snap/bin:/home/trey/.config/composer/vendor/bin:/snap/bin:/home/trey/.vimpkg/bin:/usr/local/go/bin:/home/trey/work/bin:/opt/yarn-[version]/bin:/home/trey/bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  13.2.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/share/yarn/lib/cli.js:136987:13)
+      at Interface.emit (events.js:210:5)
+      at Interface._ttyWrite (readline.js:885:16)
+      at ReadStream.onkeypress (readline.js:191:10)
+      at ReadStream.emit (events.js:210:5)
+      at emitKeys (internal/readline/utils.js:433:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1151:36)
+      at ReadStream.emit (events.js:210:5)
+      at addChunk (_stream_readable.js:326:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
